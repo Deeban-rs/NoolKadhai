@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-burgundy: #5A171B;
+  --color-burgundy-dark: #4A1719;
+  --color-gold: #B47A24;
+  --color-forest: #123C36;
+  --color-cream: #F6E9D5;
+  --color-beige: #EBD8BD;
+  --color-card-bg: #FFF8ED;
+  --color-text-main: #4A1719;
+  --color-text-muted: #765C4D;
+  --color-border-tan: #D8BFA0;
+
+  --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-tamil: "Noto Serif Tamil", "Latha", "Tamil Sangam MN", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: #F6E9D5;
+    color: #4A1719;
+    font-family: var(--font-sans);
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-editorial {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Clean base styling for luxury boutique */
+.paper-texture {
+  background-color: #FDFBF7;
+}
+
+/* Subtle luxury border styling */
+.ornamental-border {
+  border-color: #D8BFA0;
+}
+
+/* Custom scrollbar for boutique aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F6E9D5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8BFA0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B47A24;
+}

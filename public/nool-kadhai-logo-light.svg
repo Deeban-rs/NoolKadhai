@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" height="100%" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&amp;family=Noto+Serif+Tamil:wght@700;800;900&amp;display=swap');
+      .brand-nool-light {
+        font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+        font-weight: 700;
+        fill: #FFF8ED;
+      }
+      .brand-tamil-light {
+        font-family: 'Noto Serif Tamil', 'Latha', Georgia, serif;
+        font-weight: 800;
+        fill: #FFF8ED;
+      }
+    </style>
+
+    <linearGradient id="needleGoldLight" x1="610" y1="30" x2="290" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCE29A" />
+      <stop offset="30%" stop-color="#FFF9E6" />
+      <stop offset="55%" stop-color="#ECC469" />
+      <stop offset="85%" stop-color="#D39C30" />
+      <stop offset="100%" stop-color="#AD7415" />
+    </linearGradient>
+
+    <linearGradient id="spoolFlangeGoldLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE5A3" />
+      <stop offset="45%" stop-color="#E5B24E" />
+      <stop offset="100%" stop-color="#B27B22" />
+    </linearGradient>
+
+    <filter id="logoShadowLight" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Needle and Thread System -->
+  <g filter="url(#logoShadowLight)">
+    <!-- Golden Needle Blade (angled ~48 deg) -->
+    <path d="M 602 28 C 610 20, 620 28, 614 36 L 302 334 L 288 340 L 308 320 L 590 32 Z" fill="url(#needleGoldLight)" />
+    
+    <!-- Needle Eye Opening -->
+    <ellipse cx="580" cy="52" rx="2.4" ry="13" transform="rotate(47 580 52)" fill="#4A1719" stroke="#FCE29A" stroke-width="0.8" />
+  </g>
+
+  <!-- Glowing Sage/Emerald Silk Thread -->
+  <g stroke="#6BB39F" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top arching thread flourish over NOOL -->
+    <path d="M 580 52 C 602 32, 634 46, 630 80 C 626 114, 584 145, 538 158 C 496 170, 412 110, 365 52 C 338 20, 356 12, 380 16 C 418 24, 405 68, 344 100" 
+          stroke-width="4.8" fill="none" />
+
+    <!-- Connecting thread running diagonally down behind NOOL -->
+    <path d="M 572 62 C 555 90, 508 185, 442 245 C 385 295, 325 322, 288 340" 
+          stroke-width="4.8" fill="none" />
+
+    <!-- Bottom thread swoop under Tamil text 'கதை' -->
+    <path d="M 288 340 C 242 375, 188 415, 180 470 C 172 525, 218 558, 282 548 C 345 538, 388 485, 418 460 C 448 435, 492 440, 478 488 C 468 520, 434 532, 400 522 C 370 512, 395 465, 448 446 C 502 427, 574 442, 598 470" 
+          stroke-width="5.2" fill="none" />
+
+    <!-- Thread looping around the spool base -->
+    <path d="M 598 538 C 612 552, 678 556, 692 518 C 702 485, 668 448, 608 438 C 550 428, 474 456, 400 522" 
+          stroke-width="4.8" fill="none" />
+  </g>
+
+  <!-- Wooden Thread Spool Bobbin (Under 'தை') -->
+  <g transform="translate(598, 506)" filter="url(#logoShadowLight)">
+    <!-- Top Flange -->
+    <ellipse cx="0" cy="-30" rx="40" ry="10" fill="url(#spoolFlangeGoldLight)" stroke="#7E4909" stroke-width="0.8" />
+    <path d="M -40 -30 L -40 -24 C -40 -14, 40 -14, 40 -24 L 40 -30 Z" fill="#C28F2D" />
+    <ellipse cx="0" cy="-24" rx="40" ry="10" fill="url(#spoolFlangeGoldLight)" stroke="#7E4909" stroke-width="0.8" />
+
+    <!-- Spool Cylinder wrapped in Emerald Thread -->
+    <rect x="-33" y="-24" width="66" height="48" rx="2" fill="#164639" />
+    
+    <!-- Thread winding texture -->
+    <g stroke="#389178" stroke-width="1.6" opacity="0.95">
+      <line x1="-33" y1="-17" x2="33" y2="-17" />
+      <line x1="-33" y1="-8" x2="33" y2="-8" />
+      <line x1="-33" y1="0" x2="33" y2="0" />
+      <line x1="-33" y1="8" x2="33" y2="8" />
+      <line x1="-33" y1="17" x2="33" y2="17" />
+      <line x1="-31" y1="-22" x2="31" y2="20" stroke="#69BEA7" stroke-width="1.4" />
+      <line x1="-31" y1="-12" x2="31" y2="22" stroke="#69BEA7" stroke-width="1.2" />
+      <line x1="-31" y1="20" x2="31" y2="-22" stroke="#69BEA7" stroke-width="1.4" />
+    </g>
+
+    <!-- Bottom Flange -->
+    <ellipse cx="0" cy="24" rx="40" ry="10" fill="url(#spoolFlangeGoldLight)" stroke="#7E4909" stroke-width="0.8" />
+    <path d="M -40 24 L -40 31 C -40 41, 40 41, 40 31 L 40 24 Z" fill="#9C6713" />
+    <ellipse cx="0" cy="31" rx="40" ry="10" fill="url(#spoolFlangeGoldLight)" stroke="#7E4909" stroke-width="0.8" />
+  </g>
+
+  <!-- Wordmark 'NOOL' in Ivory Serif -->
+  <text x="450" y="284" text-anchor="middle" class="brand-nool-light" font-size="178" letter-spacing="0.04em">NOOL</text>
+
+  <!-- Wordmark 'கதை' in Ivory Tamil Serif -->
+  <text x="450" y="445" text-anchor="middle" class="brand-tamil-light" font-size="155" letter-spacing="0.02em">கதை</text>
+</svg>

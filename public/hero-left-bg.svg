@@ -1,0 +1,272 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1600" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Background Parchment Gradient -->
+    <linearGradient id="parchmentBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6ECE0" />
+      <stop offset="35%" stop-color="#F3E7D7" />
+      <stop offset="70%" stop-color="#EFE1CE" />
+      <stop offset="100%" stop-color="#E8D6BF" />
+    </linearGradient>
+
+    <!-- Diagonal Sunbeam / Window Light -->
+    <linearGradient id="sunlightBeam" x1="100%" y1="0%" x2="0%" y2="75%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35" />
+      <stop offset="28%" stop-color="#FFFFFF" stop-opacity="0.22" />
+      <stop offset="45%" stop-color="#F8EEDF" stop-opacity="0" />
+      <stop offset="70%" stop-color="#503218" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#38200C" stop-opacity="0.07" />
+    </linearGradient>
+
+    <!-- Gold Scissor Gradient -->
+    <linearGradient id="scissorGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FBE89D" />
+      <stop offset="35%" stop-color="#DEAA36" />
+      <stop offset="70%" stop-color="#B97E1C" />
+      <stop offset="100%" stop-color="#7A4E0A" />
+    </linearGradient>
+
+    <!-- Steel Blades Gradient -->
+    <linearGradient id="steelBlade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#D0D5DD" />
+      <stop offset="100%" stop-color="#79808D" />
+    </linearGradient>
+
+    <!-- Spool Wood -->
+    <linearGradient id="spoolWood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A36B1F" />
+      <stop offset="40%" stop-color="#E3AA45" />
+      <stop offset="75%" stop-color="#F5CF7E" />
+      <stop offset="100%" stop-color="#885412" />
+    </linearGradient>
+
+    <!-- Burgundy Thread Gradient -->
+    <linearGradient id="burgundyThread" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#380A0E" />
+      <stop offset="30%" stop-color="#63121A" />
+      <stop offset="60%" stop-color="#7E1923" />
+      <stop offset="85%" stop-color="#530F15" />
+      <stop offset="100%" stop-color="#2B0609" />
+    </linearGradient>
+
+    <!-- Fabric Gradient -->
+    <linearGradient id="fabricFold1" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DAC5AE" />
+      <stop offset="40%" stop-color="#EEDFCF" />
+      <stop offset="75%" stop-color="#F5ECE0" />
+      <stop offset="100%" stop-color="#E2CDB6" />
+    </linearGradient>
+
+    <linearGradient id="fabricShadow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B59E83" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#EADCCB" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="4" dy="8" stdDeviation="7" flood-color="#472B1A" flood-opacity="0.22" />
+    </filter>
+
+    <filter id="floraShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="12" dy="14" stdDeviation="10" flood-color="#60422A" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- 1. Base Warm Parchment Canvas -->
+  <rect width="1000" height="1600" fill="url(#parchmentBg)" />
+
+  <!-- Subtle Parchment Texture Speckling -->
+  <rect width="1000" height="1600" fill="url(#sunlightBeam)" />
+
+  <!-- 2. Top-Right: Delicate Vintage Floral Filigree Engraving -->
+  <g opacity="0.42" stroke="#8F6F4C" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main stem arch -->
+    <path d="M 960 70 C 920 120, 840 180, 820 280 C 800 370, 880 440, 920 540 C 940 590, 970 660, 990 730" />
+    <!-- Secondary flourish curves -->
+    <path d="M 825 260 C 785 240, 770 190, 785 145 C 795 110, 830 85, 875 90 C 910 95, 930 130, 905 160 C 880 185, 840 175, 835 155" />
+    <path d="M 810 320 C 760 335, 735 385, 760 435 C 780 470, 825 480, 860 460 C 895 440, 890 390, 860 375 C 835 365, 810 390, 825 410" />
+    <!-- Floral Petals / Rosette -->
+    <g transform="translate(890, 310)">
+      <circle cx="0" cy="0" r="12" stroke="#8F6F4C" stroke-width="1.2" fill="#F3E7D7" fill-opacity="0.3" />
+      <path d="M 0 -12 C -8 -26, 8 -26, 0 -12 Z" />
+      <path d="M 12 0 C 26 -8, 26 8, 12 0 Z" />
+      <path d="M 0 12 C 8 26, -8 26, 0 12 Z" />
+      <path d="M -12 0 C -26 8, -26 -8, -12 0 Z" />
+      <path d="M 8 -8 C 20 -20, 26 -10, 8 -8 Z" />
+      <path d="M 8 8 C 20 20, 10 26, 8 8 Z" />
+      <path d="M -8 8 C -20 20, -26 10, -8 8 Z" />
+      <path d="M -8 -8 C -20 -20, -10 -26, -8 -8 Z" />
+    </g>
+    <!-- Little buds and leafy tendrils -->
+    <path d="M 940 420 C 970 410, 990 430, 975 455 C 960 470, 935 460, 940 440" />
+    <path d="M 865 520 C 840 550, 845 590, 880 610 C 910 625, 945 605, 935 570" />
+  </g>
+
+  <!-- 3. Top-Left: Delicate Baby's Breath Flowers (Gypsophila) -->
+  <g filter="url(#floraShadow)">
+    <!-- Main Woody Twigs (Light tan/olive brown) -->
+    <g stroke="#7E6244" stroke-width="2.2" stroke-linecap="round" fill="none">
+      <path d="M -20 10 L 60 120 L 140 180 L 190 280" />
+      <path d="M 60 120 L 130 90 L 180 120 L 230 160" />
+      <path d="M 130 90 L 150 40 L 200 65" />
+      <path d="M 20 60 L 80 40 L 110 20" />
+      <path d="M 140 180 L 110 230 L 95 320" />
+      <path d="M 110 230 L 150 290 L 185 360" />
+      <path d="M 180 120 L 220 95 L 260 110" />
+    </g>
+
+    <!-- Fine branching stems -->
+    <g stroke="#9B7E5D" stroke-width="1.4" stroke-linecap="round" fill="none">
+      <path d="M 110 20 L 130 15" />
+      <path d="M 110 20 L 100 5" />
+      <path d="M 80 40 L 90 25" />
+      <path d="M 150 40 L 165 30" />
+      <path d="M 200 65 L 215 55" />
+      <path d="M 200 65 L 225 75" />
+      <path d="M 220 95 L 240 85" />
+      <path d="M 260 110 L 275 105" />
+      <path d="M 230 160 L 250 170" />
+      <path d="M 190 280 L 210 295" />
+      <path d="M 190 280 L 195 320" />
+      <path d="M 95 320 L 80 340" />
+      <path d="M 95 320 L 110 350" />
+    </g>
+
+    <!-- White/Cream Blossoms Clusters -->
+    <!-- Helper macro in JS -->
+  </g>
+
+  <!-- Baby's Breath Blossoms (Crisp Ivory/White puffy dots with tiny center) -->
+  <g filter="url(#softShadow)">
+    <!-- Macro for blossoms -->
+    <g transform="translate(110, 20)"><circle cx="0" cy="0" r="8" fill="#FFFDF9" /><circle cx="2" cy="-1" r="5" fill="#F5EEDB" /><circle cx="0" cy="0" r="1.8" fill="#B79A73" /></g>
+    <g transform="translate(130, 15)"><circle cx="0" cy="0" r="7" fill="#FFFDF9" /><circle cx="-1" cy="1" r="4.5" fill="#F4EBDA" /><circle cx="0" cy="0" r="1.5" fill="#B79A73" /></g>
+    <g transform="translate(100, 5)"><circle cx="0" cy="0" r="6.5" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.5" fill="#B79A73" /></g>
+    <g transform="translate(80, 40)"><circle cx="0" cy="0" r="8" fill="#FFFDF9" /><circle cx="0" cy="0" r="2" fill="#C1A582" /></g>
+    <g transform="translate(150, 40)"><circle cx="0" cy="0" r="8.5" fill="#FFFDF9" /><circle cx="-2" cy="1" r="5" fill="#F3EADB" /><circle cx="0" cy="0" r="1.8" fill="#A88965" /></g>
+    <g transform="translate(165, 30)"><circle cx="0" cy="0" r="7" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.6" fill="#A88965" /></g>
+    <g transform="translate(200, 65)"><circle cx="0" cy="0" r="9" fill="#FFFDF9" /><circle cx="1" cy="-2" r="5.5" fill="#F7EFE2" /><circle cx="0" cy="0" r="2" fill="#A88965" /></g>
+    <g transform="translate(215, 55)"><circle cx="0" cy="0" r="6" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.4" fill="#B79A73" /></g>
+    <g transform="translate(225, 75)"><circle cx="0" cy="0" r="7.5" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.7" fill="#A88965" /></g>
+    <g transform="translate(180, 120)"><circle cx="0" cy="0" r="9.5" fill="#FFFDF9" /><circle cx="-1" cy="1" r="6" fill="#F4EBDA" /><circle cx="0" cy="0" r="2.2" fill="#9D7D57" /></g>
+    <g transform="translate(220, 95)"><circle cx="0" cy="0" r="8" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.8" fill="#B79A73" /></g>
+    <g transform="translate(240, 85)"><circle cx="0" cy="0" r="6.5" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.5" fill="#A88965" /></g>
+    <g transform="translate(260, 110)"><circle cx="0" cy="0" r="8.5" fill="#FFFDF9" /><circle cx="0" cy="0" r="2" fill="#A88965" /></g>
+    <g transform="translate(275, 105)"><circle cx="0" cy="0" r="6" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.4" fill="#B79A73" /></g>
+    <g transform="translate(230, 160)"><circle cx="0" cy="0" r="9" fill="#FFFDF9" /><circle cx="0" cy="0" r="2" fill="#A88965" /></g>
+    <g transform="translate(250, 170)"><circle cx="0" cy="0" r="7" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.5" fill="#B79A73" /></g>
+    <g transform="translate(140, 180)"><circle cx="0" cy="0" r="9" fill="#FFFDF9" /><circle cx="0" cy="0" r="2" fill="#9D7D57" /></g>
+    <g transform="translate(190, 280)"><circle cx="0" cy="0" r="8.5" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.8" fill="#A88965" /></g>
+    <g transform="translate(210, 295)"><circle cx="0" cy="0" r="7" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.5" fill="#B79A73" /></g>
+    <g transform="translate(195, 320)"><circle cx="0" cy="0" r="7.5" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.6" fill="#B79A73" /></g>
+    <g transform="translate(110, 230)"><circle cx="0" cy="0" r="8.5" fill="#FFFDF9" /><circle cx="0" cy="0" r="2" fill="#9D7D57" /></g>
+    <g transform="translate(95, 320)"><circle cx="0" cy="0" r="8" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.8" fill="#9D7D57" /></g>
+    <g transform="translate(80, 340)"><circle cx="0" cy="0" r="6.5" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.4" fill="#B79A73" /></g>
+    <g transform="translate(110, 350)"><circle cx="0" cy="0" r="7" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.5" fill="#A88965" /></g>
+    <g transform="translate(150, 290)"><circle cx="0" cy="0" r="8" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.8" fill="#9D7D57" /></g>
+    <g transform="translate(185, 360)"><circle cx="0" cy="0" r="7.5" fill="#FFFDF9" /><circle cx="0" cy="0" r="1.6" fill="#B79A73" /></g>
+  </g>
+
+  <!-- 4. Bottom-Left: Draped Natural Linen Fabric Folds -->
+  <g filter="url(#softShadow)">
+    <!-- Base large drape fold -->
+    <path d="M -40 1640 C 20 1480, 80 1340, 20 1200 C 60 1220, 110 1260, 150 1330 C 200 1410, 250 1510, 290 1640 Z" 
+          fill="url(#fabricFold1)" />
+    <!-- Secondary overlapping fold -->
+    <path d="M -50 1640 C -10 1460, 60 1380, 110 1340 C 140 1370, 160 1420, 170 1490 C 180 1560, 170 1610, 150 1640 Z" 
+          fill="#EADAC7" />
+    <path d="M 10 1640 C 45 1520, 115 1450, 190 1420 C 220 1450, 240 1510, 245 1590 C 248 1620, 240 1640, 235 1640 Z" 
+          fill="#F4E8DB" />
+    <!-- Subtle shadow line inside the ripple creases -->
+    <path d="M 20 1200 C 70 1280, 120 1380, 160 1520 C 180 1590, 190 1640, 190 1640" 
+          stroke="#AF967C" stroke-width="3.5" opacity="0.4" fill="none" />
+    <path d="M 110 1340 C 135 1410, 145 1490, 140 1600" 
+          stroke="#8E755D" stroke-width="4" opacity="0.35" fill="none" />
+    <path d="M 190 1420 C 205 1480, 215 1550, 210 1640" 
+          stroke="#AF967C" stroke-width="3" opacity="0.3" fill="none" />
+  </g>
+
+  <!-- 5. Bottom-Right: Antique Gold Stork Scissors & Wooden Thread Spool -->
+  
+  <!-- Curving Loose Burgundy Silk Thread -->
+  <g filter="url(#softShadow)">
+    <!-- Thread winding from spool across bottom right -->
+    <path d="M 825 1370 C 855 1360, 890 1375, 930 1385 C 960 1395, 965 1430, 935 1450 C 900 1470, 875 1450, 890 1420 C 905 1390, 955 1400, 970 1440 C 980 1475, 960 1520, 930 1550 C 900 1580, 860 1570, 855 1540 C 850 1510, 885 1500, 895 1525 C 905 1550, 890 1575, 870 1585 L 850 1595"
+          stroke="#5C0F15" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <path d="M 825 1370 C 810 1380, 800 1410, 805 1430 C 812 1455, 840 1465, 860 1460"
+          stroke="#5C0F15" stroke-width="3" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- Wooden Spool Wound with Burgundy Thread -->
+  <g transform="translate(830, 1310) rotate(-22)" filter="url(#softShadow)">
+    <!-- Top Wooden Flange -->
+    <ellipse cx="0" cy="-58" rx="68" ry="18" fill="url(#spoolWood)" stroke="#693F09" stroke-width="1.5" />
+    <path d="M -68 -58 L -68 -46 C -68 -28, 68 -28, 68 -46 L 68 -58 Z" fill="#A36B1F" />
+    <ellipse cx="0" cy="-46" rx="68" ry="18" fill="url(#spoolWood)" stroke="#693F09" stroke-width="1.5" />
+
+    <!-- Center Spool Core with Rich Burgundy Silk Thread -->
+    <rect x="-56" y="-46" width="112" height="92" rx="3" fill="url(#burgundyThread)" />
+
+    <!-- Silk Thread Texture Grooves -->
+    <g stroke="#87242E" stroke-width="2.2" opacity="0.85">
+      <line x1="-56" y1="-36" x2="56" y2="-36" />
+      <line x1="-56" y1="-24" x2="56" y2="-24" />
+      <line x1="-56" y1="-12" x2="56" y2="-12" />
+      <line x1="-56" y1="0" x2="56" y2="0" />
+      <line x1="-56" y1="12" x2="56" y2="12" />
+      <line x1="-56" y1="24" x2="56" y2="24" />
+      <line x1="-56" y1="36" x2="56" y2="36" />
+      <!-- Subtle diagonal sheen overlay -->
+      <line x1="-54" y1="-40" x2="54" y2="38" stroke="#A43642" stroke-width="2" />
+      <line x1="-54" y1="-20" x2="54" y2="44" stroke="#A43642" stroke-width="1.5" />
+    </g>
+
+    <!-- Bottom Wooden Flange -->
+    <ellipse cx="0" cy="46" rx="68" ry="18" fill="url(#spoolWood)" stroke="#693F09" stroke-width="1.5" />
+    <path d="M -68 46 L -68 58 C -68 76, 68 76, 68 58 L 68 46 Z" fill="#885412" />
+    <ellipse cx="0" cy="58" rx="68" ry="18" fill="url(#spoolWood)" stroke="#693F09" stroke-width="1.5" />
+  </g>
+
+  <!-- Antique Gold Stork Embroidery Scissors -->
+  <g transform="translate(740, 1420) rotate(-38)" filter="url(#softShadow)">
+    <!-- Steel Beak / Blades -->
+    <path d="M 0 -130 L 14 -30 L 0 -18 L -14 -30 Z" fill="url(#steelBlade)" stroke="#606875" stroke-width="1" />
+    <line x1="0" y1="-130" x2="0" y2="-20" stroke="#4B525F" stroke-width="1.5" />
+
+    <!-- Center Pivot Screw (Gold) -->
+    <circle cx="0" cy="-22" r="7" fill="url(#scissorGold)" stroke="#684107" stroke-width="1.2" />
+    <circle cx="0" cy="-22" r="3.5" fill="#4B525F" />
+
+    <!-- Stork Head & Eye -->
+    <path d="M -16 -24 C -22 -10, -22 15, -14 35 L 14 35 C 22 15, 22 -10, 16 -24 Z" fill="url(#scissorGold)" stroke="#684107" stroke-width="1" />
+    <circle cx="-6" cy="2" r="3" fill="#301B05" />
+    <circle cx="6" cy="2" r="3" fill="#301B05" />
+
+    <!-- Stork Body with Feathers Engraving -->
+    <path d="M -14 35 C -25 60, -32 90, -28 125 L 28 125 C 32 90, 25 60, 14 35 Z" fill="url(#scissorGold)" stroke="#684107" stroke-width="1.2" />
+    <!-- Feather lines -->
+    <g stroke="#7E4F0A" stroke-width="1.2" fill="none">
+      <path d="M -14 55 C -4 65, 4 65, 14 55" />
+      <path d="M -18 75 C -4 88, 4 88, 18 75" />
+      <path d="M -22 95 C -4 108, 4 108, 22 95" />
+      <path d="M -20 115 C -4 125, 4 125, 20 115" />
+    </g>
+
+    <!-- Twin Stork Legs Splitting into Finger Loops -->
+    <!-- Left Loop Handle -->
+    <g>
+      <path d="M -12 125 C -24 140, -42 165, -42 195 C -42 228, -20 252, 10 252 C -10 252, -30 232, -30 195 C -30 172, -18 152, -4 140 Z" 
+            fill="url(#scissorGold)" stroke="#684107" stroke-width="1.2" />
+      <ellipse cx="-26" cy="210" rx="24" ry="32" fill="none" stroke="url(#scissorGold)" stroke-width="8" />
+      <ellipse cx="-26" cy="210" rx="20" ry="28" fill="none" stroke="#684107" stroke-width="1.2" />
+    </g>
+
+    <!-- Right Loop Handle -->
+    <g>
+      <path d="M 12 125 C 24 140, 42 165, 42 195 C 42 228, 20 252, -10 252 C 10 252, 30 232, 30 195 C 30 172, 18 152, 4 140 Z" 
+            fill="url(#scissorGold)" stroke="#684107" stroke-width="1.2" />
+      <ellipse cx="26" cy="210" rx="24" ry="32" fill="none" stroke="url(#scissorGold)" stroke-width="8" />
+      <ellipse cx="26" cy="210" rx="20" ry="28" fill="none" stroke="#684107" stroke-width="1.2" />
+    </g>
+  </g>
+</svg>

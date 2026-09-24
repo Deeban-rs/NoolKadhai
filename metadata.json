@@ -1,0 +1,6 @@
+{
+  "name": "Nool Kadhai - Handcrafted Luxury Boutique",
+  "description": "Premium handcrafted Indian boutique fashion brand featuring bridal blouses, ethnic wear, custom-made bespoke couture, and contemporary silhouettes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
