@@ -12,20 +12,12 @@ export const INITIAL_PRODUCTS = [
       "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&q=80&w=900",
       "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=900",
     ],
-    description:
-      "Meticulously handcrafted bridal blouse woven from pure mulberry raw silk, embellished with heritage antique zardosi, micro-pearl drops, and copper bullion wire work across the neckline and sleeve cuffs.",
     fabric: "Pure Mulberry Raw Silk with Cotton Voile Lining",
     color: "Deep Crimson Burgundy",
     sizes: ["32", "34", "36", "38", "40", "Custom Measurement"],
     isNew: true,
     inStock: 6,
     isVisible: true,
-    craftsmanshipDetails: [
-      "48+ artisan stitching hours",
-      "Hand-twisted antique metallic threads",
-      "Padded bustier cut with double reinforced seams",
-      "Concealed side zipper with authentic brass hooks",
-    ],
   },
   {
     id: "NK-PRD-02",
@@ -40,19 +32,12 @@ export const INITIAL_PRODUCTS = [
       "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=900",
       "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&q=80&w=900",
     ],
-    description:
-      "Heirloom handloom Kanchipuram pure silk saree with opulent temple zari pallu, rich korvai contrast border, and pure metallic thread weave.",
     fabric: "Pure Mulberry Handloom Silk with Zari",
     color: "Forest Emerald & Temple Gold",
     sizes: ["Standard 6.2m with Blouse Piece"],
     isNew: true,
     inStock: 4,
     isVisible: true,
-    craftsmanshipDetails: [
-      "Authentic Korvai interlocking border technique",
-      "Pure gold-dipped silver zari threads",
-      "Includes unstitched designer blouse fabric",
-    ],
   },
   {
     id: "NK-PRD-03",
@@ -66,19 +51,12 @@ export const INITIAL_PRODUCTS = [
       "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&q=80&w=900",
       "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&q=80&w=900",
     ],
-    description:
-      "A contemporary silhouette bridging Indian hand-draped textiles with couture evening wear. Features fine hand-pressed accordions and a sculpted corset bodice.",
     fabric: "Fluid Habotai Silk & Fine Tulle",
     color: "Soft Beige & Champagne Ochre",
     sizes: ["XS", "S", "M", "L", "Custom Fit"],
     isNew: true,
     inStock: 4,
     isVisible: true,
-    craftsmanshipDetails: [
-      "Sculpted internal boning for natural silhouette",
-      "Micro-rolled hems finished by hand",
-      "Concealed invisible zip closure",
-    ],
   },
   {
     id: "NK-PRD-04",
@@ -92,19 +70,12 @@ export const INITIAL_PRODUCTS = [
       "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&q=80&w=900",
       "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=900",
     ],
-    description:
-      "Plush wine micro-velvet tailored into a boat-neck silhouette with intricate botanical vines embroidered in beaten antique gold thread. Comes with a matching bespoke potli bag.",
     fabric: "Micro Velvet & Tussar Silk",
     color: "Wine Burgundy",
     sizes: ["32", "34", "36", "38", "Custom Measurement"],
     isNew: false,
     inStock: 5,
     isVisible: true,
-    craftsmanshipDetails: [
-      "Beaten metal tilla embroidery",
-      "Includes handcrafted matching drawstring potli",
-      "Soft inner lining preventing irritation",
-    ],
   },
   {
     id: "NK-PRD-05",
@@ -118,19 +89,12 @@ export const INITIAL_PRODUCTS = [
       "https://images.unsplash.com/photo-1549439602-43ebca2327af?auto=format&fit=crop&q=80&w=900",
       "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&q=80&w=900",
     ],
-    description:
-      "A completely personalized couture experience. Hand-embroidered with motifs narrating your personal wedding story, accompanied by swatches and fitting sessions.",
     fabric: "Custom Banarasi Silk / Pure Raw Silk",
     color: "Tailored to Customer Choice",
     sizes: ["Tailored to Exact Body Measurements"],
     isNew: true,
     inStock: 10,
     isVisible: true,
-    craftsmanshipDetails: [
-      "1-on-1 design consultation with master tailors",
-      "Personalized embroidered monogram / wedding date inside hem",
-      "Includes two complimentary custom fitting revisions",
-    ],
   },
   {
     id: "NK-PRD-06",
@@ -144,19 +108,12 @@ export const INITIAL_PRODUCTS = [
       "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=900",
       "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&q=80&w=900",
     ],
-    description:
-      "Natural dye hand-block prints on airy Chanderi silk, framed by delicate gota patti borders on the hem and dupatta.",
     fabric: "Pure Chanderi Silk with Mulmul Lining",
     color: "Warm Sand Beige & Ochre Gold",
     sizes: ["XS", "S", "M", "L", "XL"],
     isNew: false,
     inStock: 9,
     isVisible: true,
-    craftsmanshipDetails: [
-      "Natural wooden block printing by Salem artisans",
-      "Over 6 meters of flow in the flared kalis",
-      "Hand-finished gota lace trims",
-    ],
   },
   {
     id: "NK-PRD-07",
@@ -169,19 +126,12 @@ export const INITIAL_PRODUCTS = [
     gallery: [
       "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=900",
     ],
-    description:
-      "Intricate cutwork back design with kundan stone highlights and antique gold kasab thread, creating an heirloom silhouette for muhurtham.",
     fabric: "Heavy Raw Silk",
     color: "Deep Plum Wine",
     sizes: ["34", "36", "38", "40"],
     isNew: false,
     inStock: 5,
     isVisible: true,
-    craftsmanshipDetails: [
-      "Geometric jali cutwork handcrafted with soldiered finish",
-      "Kundan stones set in pronged gold casing",
-      "Double piped sleeve edges",
-    ],
   },
   {
     id: "NK-PRD-08",
@@ -194,19 +144,12 @@ export const INITIAL_PRODUCTS = [
     gallery: [
       "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&q=80&w=900",
     ],
-    description:
-      "Crisp structured handloom tussar silk tailored into a cinched peplum jacket with handmade fabric button detailing.",
     fabric: "Matka Silk & Tussar Blend",
     color: "Antique Khaki Beige",
     sizes: ["S", "M", "L"],
     isNew: true,
     inStock: 7,
     isVisible: true,
-    craftsmanshipDetails: [
-      "Savile Row-inspired shoulder structuring",
-      "Hand-cast brass cuff links",
-      "Silk satin internal binding",
-    ],
   },
 ];
 export const INITIAL_REVIEWS = [

@@ -159,7 +159,7 @@ export const NoolKadhaiLogo = ({
         {/* Social Signature at bottom */}
         <div className="mt-5 pt-4 border-t border-[#D8BFA0]/40 flex flex-col items-center justify-center text-center">
           <a
-            href="https://instagram.com/noolkadhai"
+            href="https://www.instagram.com/nool_kadhai/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-xs text-[#5A171B] hover:text-[#B47A24] transition-colors font-medium tracking-wider"
@@ -167,7 +167,7 @@ export const NoolKadhaiLogo = ({
             <span className="w-4 h-4 rounded-full border border-[#5A171B] flex items-center justify-center text-[9px] font-bold">
               ◎
             </span>
-            <span>@noolkadhai</span>
+            <span>@nool_kadhai</span>
           </a>
           <div className="flex items-center gap-1 text-[#B47A24]/70 text-[9px] mt-1">
             <span>—</span>

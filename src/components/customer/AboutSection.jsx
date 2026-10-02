@@ -6,7 +6,7 @@ export const AboutSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <p className="text-[11px] uppercase tracking-[0.3em] font-semibold text-[#B47A24] mb-3">
-            The Atelier & Brand Insignia
+            Fashion Studio & Brand's Signature
           </p>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif text-[#5A171B] font-normal tracking-tight">
             Our Story
@@ -42,7 +42,7 @@ export const AboutSection = () => {
             <div className="pt-6 border-t border-[#D8BFA0]/40 grid grid-cols-2 gap-6">
               <div>
                 <h4 className="font-serif text-lg text-[#5A171B] font-medium">
-                  Salem Atelier
+                  Chennai's Boutique
                 </h4>
                 <p className="text-xs text-[#765C4D] mt-1">
                   Handcrafted by master artisans in Tamil Nadu, India.

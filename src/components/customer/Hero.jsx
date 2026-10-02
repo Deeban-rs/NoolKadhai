@@ -161,7 +161,7 @@ export const Hero = ({ onExploreCollection, onCreateYourLook }) => {
               </p> */}
 
               {/* Action CTAs */}
-              <div className="flex flex-wrap flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-2.5 w-full sm:w-auto">
+              {/* <div className="flex flex-wrap flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-2.5 w-full sm:w-auto">
                 <button
                   onClick={onExploreCollection}
                   className="bg-[#5A171B] text-[#FFF8ED] hover:bg-[#4A1719] px-2.5 sm:px-4 md:px-6 py-2 sm:py-2.5 md:py-3 uppercase text-[8px] sm:text-[10px] md:text-xs tracking-[0.12em] sm:tracking-[0.2em] font-medium transition-all duration-300 hover:shadow-lg border border-[#5A171B] flex items-center justify-center gap-1.5 sm:gap-2.5 group shadow-md"
@@ -180,7 +180,32 @@ export const Hero = ({ onExploreCollection, onCreateYourLook }) => {
                   <Scissors size={12} className="text-[#B47A24] shrink-0" />
                   <span className="truncate">Custom Design</span>
                 </button>
-              </div>
+              </div> */}
+<div className="flex flex-col items-center justify-center gap-2 sm:gap-2.5 w-full">
+
+  <button
+    onClick={onExploreCollection}
+    className="w-full max-w-[220px] bg-[#5A171B] text-[#FFF8ED] hover:bg-[#4A1719] px-3 sm:px-4 md:px-6 py-2 sm:py-2.5 md:py-3 uppercase text-[8px] sm:text-[10px] md:text-xs tracking-[0.12em] sm:tracking-[0.2em] font-medium transition-all duration-300 hover:shadow-lg border border-[#5A171B] flex items-center justify-center gap-1.5 sm:gap-2.5 group shadow-md"
+  >
+    <span>Explore Collection</span>
+    <ArrowRight
+      size={12}
+      className="group-hover:translate-x-1 transition-transform text-[#D8BFA0] shrink-0"
+    />
+  </button>
+
+  <button
+    onClick={onCreateYourLook}
+    className="w-full max-w-[220px] bg-[#FFF8ED] text-[#5A171B] border border-[#D8BFA0] hover:border-[#5A171B] hover:bg-[#5A171B] hover:text-[#FFF8ED] px-3 sm:px-4 md:px-6 py-2 sm:py-2.5 md:py-3 uppercase text-[8px] sm:text-[10px] md:text-xs tracking-[0.12em] sm:tracking-[0.2em] font-medium transition-all duration-300 flex items-center justify-center gap-1.5 sm:gap-2.5 shadow-xs"
+  >
+    <Scissors
+      size={12}
+      className="text-[#B47A24] shrink-0"
+    />
+    <span>Custom Design</span>
+  </button>
+
+</div>
             </div>
 
             {/* Carousel Navigation Toolbar with Timer Progress */}

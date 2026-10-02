@@ -97,9 +97,6 @@ export const ProductDetailModal = ({
 
               <Ornament variant="needle" className="!justify-start my-4" />
 
-              <p className="text-xs sm:text-sm text-[#765C4D] leading-relaxed font-light mb-6">
-                {product.description}
-              </p>
 
               {/* Fabric and Color */}
               <div className="space-y-2 py-3 border-y border-[#D8BFA0]/50 text-xs text-[#4A1719] mb-6">
@@ -107,15 +104,12 @@ export const ProductDetailModal = ({
                   <span className="text-[#765C4D]">Fabric:</span>
                   <span className="font-medium">{product.fabric}</span>
                 </div>
-                <div className="flex justify-between">
-                  <span className="text-[#765C4D]">Color Hue:</span>
-                  <span className="font-medium">{product.color}</span>
-                </div>
+
                 <div className="flex justify-between">
                   <span className="text-[#765C4D]">Availability:</span>
                   <span className="font-medium text-[#123C36]">
                     {product.inStock > 0
-                      ? `In Atelier (${product.inStock} crafted)`
+                      ? `In Stock (${product.inStock} crafted)`
                       : "Made to order only"}
                   </span>
                 </div>
@@ -149,7 +143,7 @@ export const ProductDetailModal = ({
               </div>
 
               {/* Craftsmanship Bullet Points */}
-              {product.craftsmanshipDetails &&
+              {/* {product.craftsmanshipDetails &&
                 product.craftsmanshipDetails.length > 0 && (
                   <div className="bg-[#F6E9D5]/40 border border-[#D8BFA0]/50 p-4 mb-6">
                     <div className="flex items-center gap-1.5 text-[#B47A24] text-[10px] uppercase tracking-[0.2em] font-semibold mb-2">
@@ -165,7 +159,7 @@ export const ProductDetailModal = ({
                       ))}
                     </ul>
                   </div>
-                )}
+                )} */}
             </div>
 
             {/* Action Buttons */}
@@ -200,8 +194,7 @@ export const ProductDetailModal = ({
 
               <p className="text-[11px] text-center text-[#765C4D] italic flex items-center justify-center gap-1">
                 <ShieldCheck size={13} className="text-[#123C36]" />
-                Includes complimentary alteration support from our Salem master
-                tailors.
+                Includes complimentary alteration support from Us.
               </p>
             </div>
           </div>

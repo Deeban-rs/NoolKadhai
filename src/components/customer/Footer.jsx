@@ -16,7 +16,7 @@ export const Footer = ({ onNavigate, onOpenCustomModal, onSwitchToAdmin }) => {
           {/* Col 1: About */}
           <div>
             <h4 className="font-serif text-base text-[#FFF8ED] tracking-wide mb-4 font-normal">
-              The Salem Atelier
+              The Chennai's boutique
             </h4>
             <p className="text-[#D8BFA0] leading-relaxed font-light mb-4 text-[13px]">
               Handcrafted Indian fashion boutique dedicated to timeless
@@ -25,99 +25,6 @@ export const Footer = ({ onNavigate, onOpenCustomModal, onSwitchToAdmin }) => {
             <div className="flex items-center gap-2 text-[#B47A24] text-[11px] tracking-widest uppercase">
               <span>Pure Weaves</span> • <span>Heirloom Stitches</span>
             </div>
-          </div>
-
-          {/* Col 2: Collections */}
-          <div>
-            <h4 className="font-serif text-base text-[#FFF8ED] tracking-wide mb-4 font-normal">
-              Boutique Portfolios
-            </h4>
-            <ul className="space-y-2.5 text-[#D8BFA0]">
-              <li>
-                <button
-                  onClick={() => onNavigate("collections")}
-                  className="hover:text-[#B47A24] transition-colors"
-                >
-                  Bridal Blouses & Maggam
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => onNavigate("collections")}
-                  className="hover:text-[#B47A24] transition-colors"
-                >
-                  Contemporary Western Wear
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={onOpenCustomModal}
-                  className="hover:text-[#B47A24] transition-colors flex items-center gap-1"
-                >
-                  <span>Custom Made Bespoke</span>
-                  <span className="text-[9px] text-[#B47A24] font-mono">
-                    [Inquiry]
-                  </span>
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => onNavigate("collections")}
-                  className="hover:text-[#B47A24] transition-colors"
-                >
-                  Heritage Ethnic Silk Silhouettes
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => onNavigate("collections")}
-                  className="hover:text-[#B47A24] transition-colors"
-                >
-                  Festive Soiree Collection
-                </button>
-              </li>
-            </ul>
-          </div>
-
-          {/* Col 3: Client Concierge */}
-          <div>
-            <h4 className="font-serif text-base text-[#FFF8ED] tracking-wide mb-4 font-normal">
-              Client Concierge
-            </h4>
-            <ul className="space-y-2.5 text-[#D8BFA0]">
-              <li>
-                <button
-                  onClick={() => onNavigate("orders")}
-                  className="hover:text-[#B47A24] transition-colors"
-                >
-                  Track My Order Status
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={onOpenCustomModal}
-                  className="hover:text-[#B47A24] transition-colors"
-                >
-                  Book Fitting Appointment
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => onNavigate("about")}
-                  className="hover:text-[#B47A24] transition-colors"
-                >
-                  Craftsmanship & Fabric Care
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => onNavigate("wishlist")}
-                  className="hover:text-[#B47A24] transition-colors"
-                >
-                  Saved Pieces (Wishlist)
-                </button>
-              </li>
-            </ul>
           </div>
 
           {/* Col 4: Reach Atelier */}
@@ -129,7 +36,7 @@ export const Footer = ({ onNavigate, onOpenCustomModal, onSwitchToAdmin }) => {
               <div className="flex items-start gap-2.5">
                 <MapPin size={15} className="text-[#B47A24] shrink-0 mt-0.5" />
                 <span className="text-[13px] leading-snug">
-                  42, Fairlands Cross Road, Salem, Tamil Nadu - 636016
+                  No:36/22, Rameswaram road,T-Nagar,Chennai,600017
                 </span>
               </div>
               <div className="flex items-center gap-2.5">
@@ -143,12 +50,12 @@ export const Footer = ({ onNavigate, onOpenCustomModal, onSwitchToAdmin }) => {
               <div className="flex items-center gap-2.5 pt-1">
                 <Instagram size={15} className="text-[#B47A24] shrink-0" />
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/nool_kadhai/"
                   target="_blank"
                   rel="noreferrer"
                   className="text-[13px] text-[#FFF8ED] hover:text-[#B47A24] transition-colors"
                 >
-                  @noolkadhai
+                  @nool_kadhai
                 </a>
               </div>
             </div>
@@ -164,7 +71,7 @@ export const Footer = ({ onNavigate, onOpenCustomModal, onSwitchToAdmin }) => {
           <div className="flex items-center gap-1">
             <span>Handcrafted with</span>
             <Heart size={11} className="text-[#B47A24] fill-[#B47A24]" />
-            <span>in Salem, Tamil Nadu</span>
+            <span>in Chennai, Tamil Nadu</span>
           </div>
           {/* Hidden/discreet trigger for boutique owner: triple-click or alt-click on the diamond */}
           <button
